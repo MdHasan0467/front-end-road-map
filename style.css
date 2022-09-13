@@ -6,7 +6,19 @@ header img {
     position: absolute;
     right: 50px;
     top: 20px;
+    border: 1px solid transparent;
 }
+header img:hover{
+    border: 0.5px solid red;
+}
+.left{
+    margin-left: 170px;
+}
+.right{
+    margin-left: 200px;
+}
+
+
 
 #HTML-heading{
     background: #fff1f1;
